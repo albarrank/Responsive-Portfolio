@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    background: url("../images/prism.png");
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:nowrap;
+    align-items:center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #ffffff;
+}
+#headerwrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 960px;
+    height: 10vh;
+}
+#name {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    background-color:#4aaaa5;
+    height: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    margin-left: -9px
+}
+#menuwrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    background-color:white;
+    height: 10vh;
+    width: 25%;
+}
+#menu {
+    color: #777777;
+    border-right:1px;
+}
+.link {
+    color: #777777;
+    border-right: 3px solid #d3d3d3;
+    margin-right: 3px;
+    padding-right: 8px;
+    font-size: 20px;
+}
+.link-p {
+    color: #777777;
+    font-size: 20px;
+}
+#contact-board {
+    border: 5px solid #dddddd;
+    background-color: #ffffff;
+    width: 960px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+#contact-heading {
+    margin-left: 20px;
+}
+h1 {
+    color: #4aaaa5;
+}
+p {
+    color: #777777
+}
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+    border-top: 2px solid #666666;
+    width: 920px;
+}
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto auto 0; 
+    flex-shrink: 0;
+    background-color:#666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    padding: 10px;
+    font-size: 10px;
+}
+#about-me {
+    border: 5px solid #dddddd;
+    background-color: #ffffff;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+#about-me-header {
+    margin-left: 20px;
+    border-bottom: 2px solid #666666;
+    margin-right: 20px;
+
+}
+#mainbody{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img.me{
+    float: left;
+    margin-right: 15px;
+}
+#portfolio {
+    border: 5px solid #dddddd;
+    background-color: #ffffff;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+#portheader {
+    margin-left: 10px;
+    border-bottom: 2px solid #777777;
+    margin-right: 10px;
+}
+.container {
+    position: relative;
+}
+#hangman {
+    margin: 30px;
+    float: left;
+}
+#rpg {
+    margin: 30px;
+    float: left;
+}
+#trivia {
+    margin: 30px;
+    clear: both;
+    float: left;
+}
+#widget {
+    margin: 30px;
+    float: left;
+}
+#rock {
+    margin: 30px;
+    clear: both;
+}
+div.label {
+    position: absolute;
+    bottom: 4px;
+}
+h2.label {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    width: 260px;
+}
+h1,h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
