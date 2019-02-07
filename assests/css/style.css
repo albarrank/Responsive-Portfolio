@@ -188,30 +188,39 @@ input[type=submit] {
     cursor: pointer;
 }
 @media screen and (max-width: 960px) {
-    /*Index*/
     nav a, div a {
         margin: 0 30px;
     }
     #main-container {
-        margin: 0 10px;
+        margin: 0;
+        width: 100%;
+        max-width: 900px;
+        margin-left: 30px;
     }
-    /*contact*/
+    .main-section {
+        margin-bottom: 100px;
+    }
+    .sidebar {
+        clear: both;
+        float: left;
+        margin-bottom: 100px;
+    }
 
 }
 @media screen and (max-width: 768px) {
-    /*Index*/
     #main-container {
+        margin: 0;
+        width: 100%;
+        max-width: 708px;
         margin-left: 30px;
     }
     .sidebar {
         clear: both;
         float: left;
-        text-align: center;
     }
     
 }
 @media screen and (max-width: 640px) {
-    /*Index*/ 
     #masthead {
         position: static;
     }
@@ -236,6 +245,10 @@ input[type=submit] {
     }
     .sidebar {
         margin-bottom: 100px;
+    }
+    .work {
+        width: 100%;
+        max-width: 500px;
     }
 }
    
