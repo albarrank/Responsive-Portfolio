@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>Kevin's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assests/css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="assests/css/style.css"/>
+        <meta lang="en"/>
+        <meta charset="utf-8"/>
+        <title>Kevin's Portfolio</title>
     </head>
-    
     <body>
-        <div id="wrapper">   
-            <header>
-                <header id="headerwrapper">
-                    <div id="header-name">
-                        <h1 id="name">Kevin Albarran</h1>
-                    </div>        
-                        <div id="menuwrapper">
-                            <span id="menu">
-                                <a href="index.html" alt="about link" class="link">About</a>
-                                <a href="contact.html" alt="contact link" class="link">Contact</a>
-                                <a href="portfolio.html" alt="portfolio link" class="link-p">Portfolio</a>
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Kevin Albarran</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
 
-                            </span>
-                        </div>
-                </header>
-            </header>        
-            <div id="about-me">
-                <div id="about-me-header">
-                    <h1>About Me</h1>
-                </div>
-                <div id="mainbody">
-                    <img class="me" src="assests/images/profile.jpg">
-                    
-                        <p>Hello my name is Kevin Albarran. I was like going hiking and camping outdoors usually with only whatever I can carry on my back. I used to be an EMT and that was one of the coolest experiences of my life both going to school for it and helping out.</p>
-                                <br>
-                    
-                        <p>I play a couple of musical instruments and sometimes will meet up with friends to collaborate some songs together. It is never anything serious that we make but we have fun making the songs up. </p>
-                                <br>
-                    
-                        <p>Playing video games is also my JAM (not jelly)! It doesnt really matter what system I play on, it's just a great way for me to relax and just have fun.</p>
-
-                </div>
             </div>
-        
+
+        </header>
+
+
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>About me</h1>
+
+                <img src="assests/images/profile.jpg" class="auth-image" alt="profile picture"/>
+
+                <p>Hello my name is Kevin Albarran. I was like going hiking and camping outdoors usually with only whatever I can carry on my back.
+                I used to be an EMT and that was one of the coolest experiences of my life both going to school for it and helping out.</p>
+
+                <p>I play a couple of musical instruments and sometimes will meet up with friends to collaborate some songs together.
+                It is never anything serious that we make 
+                but we have fun making the songs up. </p>
+
+                <p>Playing video games is also my JAM (not jelly)! It doesnt really matter what system I play on, it's just a great way for me to relax
+                and just have fun.</p>
+
+
+            </section>
+
+            <section class="sidebar">
+                <div class="connect">
+                    <h2>Connect with Me</h2>
+
+                    <img src="assests/images/GitHub-Mark-64px.png" class="social" alt="Github"/>
+                    <img src="assests/images/In-2C-66px-R.png" class="social" alt="LinkedIn"/>
+
+                </div>
+
+            </section>
+
         </div>
-    
-        <footer>Copyright@</footer>
-    
+        <footer>
+            <div class="container">
+                &copy; Copyright 2019 Kevin Albarran
+            </div>
+
+        </footer>
+
     </body>
 
 </html>
